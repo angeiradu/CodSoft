@@ -14,6 +14,7 @@ body {
 
   .menu{
     background: linear-gradient(to right, #e51818, #22c1d3);
+    margin-left: 8%;
   }
 
   nav ul li{
@@ -51,4 +52,6 @@ body {
 
 .logo{
   border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: -20px;
 }
