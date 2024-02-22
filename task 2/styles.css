@@ -21,3 +21,11 @@ h3{
 .container{
     padding: 20px;
 }
+
+.button{
+    border: none;
+}
+
+.row{
+    padding-left: 0;
+}
