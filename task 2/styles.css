@@ -29,3 +29,15 @@ h3{
 .row{
     padding-left: 0;
 }
+
+#contact{
+    background-color: rgba(9, 9, 145, 0.828);
+}
+
+#facts{
+    background-color: rgb(5, 5, 75);
+}
+
+.pentagon i{
+    border: 160px 80px ;
+}
