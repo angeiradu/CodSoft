@@ -1,0 +1,43 @@
+
+/*---------------home-------------------*/
+.nav-link{
+    color: rgb(2, 2, 145);
+}
+
+.card-title{
+    margin-left: 40px;
+    color: white;
+}
+
+.card{
+    border: none;
+    border-radius: unset;
+}
+
+h3{
+    color: rgb(7, 7, 189);
+}
+
+.container{
+    padding: 20px;
+}
+
+.button{
+    border: none;
+}
+
+.row{
+    padding-left: 0;
+}
+
+#contact{
+    background-color: rgba(9, 9, 145, 0.828);
+}
+
+#facts{
+    background-color: rgb(5, 5, 75);
+}
+
+.pentagon i{
+    border: 160px 80px ;
+}
