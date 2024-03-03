@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background:  url(bilo1.jpg);
+    background:  url(images/bilo1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -26,12 +26,10 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     flex-wrap: wrap;
 }
-.logo{
-    width: 140px;
-}
+
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -76,9 +74,9 @@ nav ul li a:hover::after{
 /*---------about-------------*/
 #about{
     padding: 8px 0;
-    color: #ababab;
     background-position: center;
     background-size: cover;
+    background-color: white;
 }
 .row{
     display: flex;
@@ -90,147 +88,30 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 100%;
-    border-radius: 20px;
 }
 .about-col-2{
     flex-basis: 60%;
 }
 .about-par{
     color: #060606;
-    background: rgb(177, 175, 175);
-    border-radius: 10px;
-    box-sizing: border-box;
-    border-left: 10px solid #5c3030;
-    border-right: 10px solid #5c3030;
-    padding-left: 2rem;
-    padding-right: 1rem;
+    padding-top: 5px;
 }
 
-.about-col-2 p:hover{
-    background: #777269;
-    transform:translateX(10px);
-}
 .sub-title{
     font-size: 60px;
     font-weight: 600;
     color: red;
     border-bottom-width:  solid red;
 }
-/*-----------Education---------*/
-#education{
-    padding: 30px 0;
-    background-image: url(pen3.jpg);
-}
-.education-info{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-
-}
-.education-info div{
-    background: #30292d;
-    padding: 45px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, tranform 0.5s;
-}
-.education-info div h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-    color: rgb(5, 197, 184);
-}
-
-.education-info div:hover{
-    background: #8f1d58;
-    transform: translateY(-15px);
-}
-.fa-solid fa-school{
-    padding: 10px;
-}
-.fa-solid fa-calendar-days{
-    padding: 10px;
-}
-.fa-solid fa-location-dot fa-beat-fade{
-    padding: 10px;
-}
-.school{
-    color: orangered;
-    padding-left: 20px;
-}
-.calendar{
-    padding-left: 20px;
-}
-.location{
-    padding-left: 20px;
-}
-.list{
-    padding-left: 25x;
-}
-
-/*------------skills----------------*/
-#skills{
-    padding: 50px 0;  
-}
-.skills-info{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-    margin-top: 50px;
-}
-.sub-title1{
-    font-size: 60px;
-    font-weight: 600;
-    color: red;
-    border-bottom-width:  solid red;
-    text-align: center;
-}
-.circle-wrap{
-    display: grid;
-    grid-template-columns: repeat(1, 160px);
-    grid-gap: 80px;
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 100px;
-    height: 110px;
-    background-color:rgb(64, 63, 63);
-    border-radius: 50%;
-    border-color: #b19dba;
-    
-}
 
 
-.inside-circle{
-    width: 100px;
-    height: 110px;
-    border-radius: 50%;
-    background: #681045;
-    line-height: 120px;
-    position:absolute;
-    margin-top: 13px;
-    margin-left: 13px;
-    z-index: 100;
-    font-size: 2em;
-    font-weight: 700;
-    color: rgb(175, 162, 162);
-    text-align: center;
-}
-
-.skills-info i{
-    font-size: 150px;
-    padding: 80px;
-}
-
-.rate{
-    margin-top: -100px;
-}
 
 /*--------------------Experience------------------*/
 
 #experience{
     padding: 50px 0;
-    background: #4b4538;
+    background: black
+    
 }
 
 .sub-title2{
@@ -246,30 +127,25 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
-    border-block-width: 10px;
 }
-.experience-info h4{
-    color: rgb(249, 249, 251);
-}
-.experience-info h3{
-    color: rgb(6, 3, 69);
-    padding: 10px;
-}
+
+
+
+
 .experience-info p{
-    padding: 2px;
+    padding: 10px;
+    color: white;
+    background-color:rgba(128, 128, 128, 0.129);
+    height: 180px;
 }
 
-.Volunt a{
-    color: green;
-}
-.experience-info:hover{
-    color: black;
-    background-color: rgb(44, 35, 35);
-}
 
-/*----------------------------projects------------------*/
-#projects{
+
+
+/*----------------------------photos------------------*/
+#photos{
     padding: 50px 0;
+    background-color: white;
 }
 
 .sub-title3{
@@ -282,63 +158,24 @@ nav ul li a:hover::after{
 .projects-info{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 20px;
     margin-top: 50px;
     border-block-width: 10px;
 }
-.projects-info div h2{
-    color: aqua;
-    padding: 55px;
-}
-.projects-info div i{
-    font-size: 150px;
+
+.projects-info div img{
     padding: 30px;
+    margin-top: -20px;
 }
-.projects-info div h5{
-     font-size: 17px;
+.projects-info div video{
+    margin-top: 10px;
+    margin-left: 30px;
 }
-
-/*-------------------Resume-------------------*/
-
-#Resume{
-    padding: 50px 0;
-    background:black;
-}
-
-.sub-title5{
-    font-size: 50px;
-    font-weight: 600;
-    color: red;
-    border-bottom-width:  solid red;
-    text-align: center;
-}
-
-.Resume-info{
-    margin-left: 300px;
-    padding:30px;
-}
-
-.download-btn{
-    background-color: DodgerBlue;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    font-size: 2rem;
-    text-decoration: none;
-    border-radius:5px;
-    width: 250px;
-    margin-left: 90px;
-}
-
-.download-btn:hover {
-    background-color: RoyalBlue;
-  }
-
 
 /*----------------------------contact------------------*/
 #contact{
     padding: 50px 0;
-    background: wheat;
+    background: black;
 }
 .sub-title4{
     font-size: 50px;
@@ -356,7 +193,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #592442;
+    background: #89235d;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -371,7 +208,7 @@ form input, form textarea{
 }
 .contact-left p{
     margin-top: 30px;
-    color: black;
+    color: white;
 }
 .contact-left p i{
     color: #8f1d58;
@@ -385,7 +222,7 @@ form input, form textarea{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #592442;
+    color: #851354;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -398,6 +235,10 @@ form input, form textarea{
     background-color:chocolate;
 }
 
+.map{
+    padding-top: 10px;
+}
+
 .fotter-bottom{
    background: #292929;
    text-align: center;
@@ -405,127 +246,4 @@ form input, form textarea{
    
 }
 
-/*------------------css for small screens------------------*/
 
-
-@media only screen and (max-width:600px){
-    #header{
-        background-image: url(bilo1.jpg);
-    }
-    .header-text{
-        margin-top: 50%;
-        font-size: 16px;
-    }
-    .header-text h1{
-        font-size: 30px;
-    }
-    nav .fa-solid{
-        display: block;
-        font-size: 25px;
-    }
-    nav ul{
-        background: #ff004f;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition:right 0.5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fa-solid{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    .sub-title,
-    .sub-title1,
-    .sub-title2,
-    .sub-title3,
-    .sub-title4{
-        font-size: 35px;
-    }
-    .about-col-1,.about-col-2{
-        flex-basis: 100%;
-    }
-    .about-col-1{
-        margin-top: 40px;
-    }
-    .about-col-2{
-        font-size: 12px;
-
-    }
-    .about-col-1 img{
-       width: 85%;
-       height: 85%;
-    }
-    .education-info{
-        flex-basis: 100%;
-    }
-    .education-info div{
-        flex-basis: 100%;
-
-    }
-    .education-info div h2{
-        font-size: 17px;
-    }
-    .education-info div h3 i{
-        font-size: 10px;
-    }
-    .education-info div h3{
-        font-size: 12px;
-    }
-    .education-info div p{
-        font-size: 10px;
-    }
-    .list ul li{
-        font-size: 12px;
-    }
-    .education-info div{
-        flex-basis: 100%;
-    }
-    .skills-info i{
-        font-size: 100px;
-    }
-    .experience-info h4,
-    .experience-info p,
-    .experience-info p i{
-        font-size: 13px;
-    }
-    .experience-info{
-        flex-basis: 100%;
-    }
-    .experience-info h3{
-        font-size: 15px;
-    }
-    .projects-info h2{
-        font-size: 16px;
-    }
-    .projects-info  div p{
-        font-size: 12px;
-        
-    }
-    .projects-info  div a{
-        font-size: 12px;
-    }
-    .projects-info  div i{
-        font-size: 100px;
-    }
-    .projects-info  div ol li{
-        font-size: 12px;
-    }
-    .projects-info  div h5{
-        font-size: 14px;
-    }
-    .contact-left, .contact-right{
-        flex-basis: 100%;
-    }
-    
-    
-}
